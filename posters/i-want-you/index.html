@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>I WANT YOU</title>
+
+	<style type="text/css">
+		body {
+			color: #fff;
+		  font: 16px/1.8 sans-serif;
+		  background-color: #faf5cf;
+	  }
+		.container {
+			width: 100%;
+			margin:0 auto;
+			padding: 18px;
+			max-width:100%;
+			float: left;
+			border-width:18px;
+			border-color: rgba(188, 50, 60, 0.89);
+			border-style: solid;
+			/*border-image: url(img/red-border.png)  100% repeat;*/
+			background-image: url(img/figure.jpg);
+			background-position: left top;
+			background-repeat: no-repeat;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */
+		}
+		.container-inner {
+			width: 100%;
+			max-width:100%;
+			float: left;
+			-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+			-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+			box-sizing: border-box;         /* Opera/IE 8+ */
+			border: 18px solid rgba(36, 34, 46, 0.98);
+		}
+		header {
+			width: 100%;
+			margin:0px auto;
+		}
+		h2 {
+			text-align: center;
+			color:#190d11;
+			font: 75px/1 "Impact";
+			text-transform: uppercase;
+			display: block;
+			text-shadow:#fff -1px 1px 0;
+			margin: 5% auto 5%;
+			text-decoration: none;
+		}
+		h1, h1 a {
+			text-align: center;
+			color: rgba(19, 13, 17, 0.9);
+			font: 195px/1 "Impact";
+			text-transform: uppercase;
+			display: block;
+			-webkit-text-stroke-width: 4px;
+			-webkit-text-stroke-color: #bc333d;
+			text-shadow:#cb3237 -1px 1px 0;
+			margin: 5% auto 5%;
+			text-decoration: none;
+		}
+		h1 .you {
+			font: 255px/1 "Impact";
+			text-align: center;
+			color: rgba(188, 50, 60, 0.9);
+			-webkit-text-stroke-width: 8px;
+			-webkit-text-stroke-color: #130e12;
+		}	
+		img {
+			margin: 5% auto 5%;
+			max-width: 100%;
+			-webkit-border-radius: 8px;
+			-moz-border-radius: 8px;
+			border-radius: 8px;
+			-webkit-box-shadow: 0px 2px 1px 1px rgba(00, 00, 00, 0.3);
+			-moz-box-shadow: 0px 2px 1px 1px rgba(00, 00, 00, 0.3);
+			box-shadow: 0px 2px 1px 1px rgba(00, 00, 00, 0.3);		
+		}		
+	</style>
+
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="container-inner">
+			<header>
+			<h1 class="fittext1">I WANT <span class="you">YOU</span></h1>
+			<h1 id="fittext2">FOR U.S.ARMY</h1>
+			<h2 class="fittext1">NEAREST RECRUITING STATION</h2>
+			</header>
+		</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 	<script src="jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$(".fittext1").fitText(1.5);
+		$("#fittext2").fitText(0.1);//, { minFontSize: 90, maxFontSize: '75px' });
+	</script>
+	
+</body>
+</html>

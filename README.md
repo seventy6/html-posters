@@ -1,7 +1,7 @@
 HTML5 POSTERS
 =============
 
-A simple expirement into recreating some classic posters
+An experiment in recreating classic posters in good old markup, CSS3 and some JS helpers.
 
 Posters
 -------
